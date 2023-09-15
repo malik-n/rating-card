@@ -2,6 +2,8 @@
 export const Ratings = ({ setRating, setIsSubmitted }) => {
   return (
     <div className="ratings">
+      <img src="src/images/icon-star.svg" alt="" className="star-img"/>
+
       <div className="heading pt-2">
         <h3>How did we do?</h3>
       </div>
@@ -19,7 +21,7 @@ export const Ratings = ({ setRating, setIsSubmitted }) => {
                 key={index}
                 onClick={() => {
                   setRating(index + 1);
-                }}
+                   }}
               >
                 {index + 1}
               </li>
@@ -38,4 +40,5 @@ export const Ratings = ({ setRating, setIsSubmitted }) => {
       </div>
     </div>
   );
+  
 };

@@ -6,6 +6,7 @@ import { Ratings } from "./components/Ratings";
 function App() {
   const [rating, setRating] = useState(null);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  // const [isClicked, setIsClicked] = useState(false);
   // console.log(rating);
 
   return (
@@ -13,7 +14,7 @@ function App() {
       {isSubmitted ? (
         <Result rating={rating} />
       ) : (
-        <Ratings setRating={setRating} setIsSubmitted={setIsSubmitted} />
+        <Ratings setRating={setRating}  setIsSubmitted={setIsSubmitted} />
       )}
     </div>
   );

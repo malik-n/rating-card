@@ -25,6 +25,14 @@
   border-radius: 15px;
 }
 
+.star-img {
+  align-self: flex-start;
+  margin-left: 20px;
+  background-color: lightgray;
+  border-radius: 50px;
+  padding: 5px;
+}
+
 .heading {
   align-self: flex-start;
   padding-left: 20px;
@@ -69,4 +77,31 @@ button {
 
 button:hover {
   cursor: pointer;
+}
+
+
+/* Result page */
+
+.result {
+  background-color: hsl(213, 19%, 18%);
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+  height: 300px;
+  width: 300px;
+  border-radius: 15px;
+}
+
+.result h2 {
+  color: white;
+}
+
+.p1 {
+  color: orange;
+}
+
+.p2 {
+  color: hsl(238, 34%, 45%);
+  text-align: center;
 }
