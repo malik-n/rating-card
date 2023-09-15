@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+* {
+  margin: 0;
+}
+
+.container {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Overpass", sans-serif;
+}
+
+.ratings {
+  background-color: hsl(213, 19%, 18%);
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+  height: 300px;
+  width: 300px;
+  border-radius: 15px;
+}
+
+.heading {
+  align-self: flex-start;
+  padding-left: 20px;
+  color: white;
+}
+
+p {
+  padding: 0px 20px;
+  color: hsl(217, 12%, 63%);
+}
+
+ul {
+  display: flex;
+  /* justify-content: space-evenly; */
+  gap: 25px;
+  list-style: none;
+  padding-left: 0;
+  color: hsl(215, 10%, 35%);
+}
+
+li {
+  padding: 5px 10px;
+  border-radius: 100%;
+  background-color: hsl(216, 20%, 75%);
+}
+
+li:hover {
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button {
+  all: unset;
+  background-color: orange;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 100px;
+  border-radius: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+}
